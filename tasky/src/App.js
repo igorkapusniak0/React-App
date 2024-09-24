@@ -6,16 +6,20 @@ function App() {
     <div className="container">
       <h1>Tasky</h1>
 
-      <Task title="Dishes" deadline="Today">
-        Clean Dishes and put away
+      <Task title="Dishes" deadline="Today" description="Clean Dishes and put away">
+        
       </Task>
       
-      <Task title="Laundry" deadline="Tomorrow" >
-          Fold the Laundry and put it away
+      <Task title="Laundry" deadline="Tomorrow" description="Fold the Laundry and put it away">
+
       </Task>
       
-      <Task title="Tidy" deadline="Today" >
-        Tidy room 
+      <Task title="Tidy" deadline="Today" description="Tidy room">
+         
+      </Task>
+
+      <Task title="homework" deadline="Yesterday" description="Web app Homework">
+        
       </Task>
     </div>
   );
